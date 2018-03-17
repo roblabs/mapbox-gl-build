@@ -19,7 +19,7 @@ RUN apt-get update
 
 # Install Build tools
 RUN apt-get install -y \
-  curl git build-essential zlib1g-dev automake \
+  curl nodejs npm git build-essential zlib1g-dev automake \
   libtool xutils-dev make cmake pkg-config python-pip \
   libcurl4-openssl-dev libpng-dev libsqlite3-dev
 
